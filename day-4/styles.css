@@ -1,0 +1,80 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    height: 300px;
+    width: 400px;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #080101;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+label {
+    display: block;
+    font-size: 22px;
+    color: #333;
+}
+
+input {
+    height: 35px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    display: block;
+}
+
+#btn {
+    height: 35px;
+    width: 75px;
+    border-radius: 7px;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    cursor: pointer;
+}
+
+#btn:hover {
+    height: 35px;
+    width: 75px;
+    border-radius: 7px;
+    color: #fff;
+    background-color: #34db3c;
+    border: none;
+    cursor: pointer;
+}
+
+body {
+    background: #00F260;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0575E6, #00F260);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
